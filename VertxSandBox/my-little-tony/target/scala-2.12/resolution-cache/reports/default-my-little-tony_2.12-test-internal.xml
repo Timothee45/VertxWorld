@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="my-little-tony_2.12"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scalafmt, scoveragePlugin"
+		date="20180718093020"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161110065252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5287" time="0" location="/Users/tmasurel/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.12" type="bundle" ext="jar" status="no" details="" size="6992597" time="0" location="/Users/tmasurel/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161028191045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2918" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.4/ivys/ivy.xml"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="204313" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161110065016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/tmasurel/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="705564" time="0" location="/Users/tmasurel/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-mysql-postgresql-client-scala_2.12">
+			<revision name="3.5.1" status="release" pubdate="20180209093621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25709" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client-scala_2.12/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-mysql-postgresql-client-scala_2.12/3.5.1/vertx-mysql-postgresql-client-scala_2.12-3.5.1.pom"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="vertx-mysql-postgresql-client-scala_2.12" type="jar" ext="jar" status="no" details="" size="15447" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client-scala_2.12/jars/vertx-mysql-postgresql-client-scala_2.12-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-mysql-postgresql-client-scala_2.12/3.5.1/vertx-mysql-postgresql-client-scala_2.12-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-sql-common-scala_2.12">
+			<revision name="3.5.1" status="release" pubdate="20180209093044" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25477" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-sql-common-scala_2.12/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-sql-common-scala_2.12/3.5.1/vertx-sql-common-scala_2.12-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-sql-common-scala_2.12" type="jar" ext="jar" status="no" details="" size="43254" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-sql-common-scala_2.12/jars/vertx-sql-common-scala_2.12-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-sql-common-scala_2.12/3.5.1/vertx-sql-common-scala_2.12-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-mysql-postgresql-client">
+			<revision name="3.5.1" status="release" pubdate="20180209092109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="26969" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-mysql-postgresql-client/3.5.1/vertx-mysql-postgresql-client-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-mysql-postgresql-client" type="jar" ext="jar" status="no" details="" size="78629" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client/jars/vertx-mysql-postgresql-client-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-mysql-postgresql-client/3.5.1/vertx-mysql-postgresql-client-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mauricio" name="mysql-async_2.12">
+			<revision name="0.2.21" status="release" pubdate="20170109182809" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mauricio/postgresql-async" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="APACHE-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/mysql-async_2.12/ivy-0.2.21.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/mysql-async_2.12/0.2.21/mysql-async_2.12-0.2.21.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client" conf="compile, runtime" rev="0.2.21" rev-constraint-default="0.2.21" rev-constraint-dynamic="0.2.21" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="mysql-async_2.12" type="jar" ext="jar" status="no" details="" size="316129" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/mysql-async_2.12/jars/mysql-async_2.12-0.2.21.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/mysql-async_2.12/0.2.21/mysql-async_2.12-0.2.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mauricio" name="postgresql-async_2.12">
+			<revision name="0.2.21" status="release" pubdate="20170109182827" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mauricio/postgresql-async" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="APACHE-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/postgresql-async_2.12/ivy-0.2.21.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/postgresql-async_2.12/0.2.21/postgresql-async_2.12-0.2.21.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client" conf="compile, runtime" rev="0.2.21" rev-constraint-default="0.2.21" rev-constraint-dynamic="0.2.21" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="postgresql-async_2.12" type="jar" ext="jar" status="no" details="" size="244882" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/postgresql-async_2.12/jars/postgresql-async_2.12-0.2.21.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/postgresql-async_2.12/0.2.21/postgresql-async_2.12-0.2.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mauricio" name="db-async-common_2.12">
+			<revision name="0.2.21" status="release" pubdate="20170109182726" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mauricio/postgresql-async" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="APACHE-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3878" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/db-async-common_2.12/ivy-0.2.21.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/db-async-common_2.12/0.2.21/db-async-common_2.12-0.2.21.pom"/>
+				<caller organisation="com.github.mauricio" name="postgresql-async_2.12" conf="compile, runtime" rev="0.2.21" rev-constraint-default="0.2.21" rev-constraint-dynamic="0.2.21" callerrev="0.2.21"/>
+				<caller organisation="com.github.mauricio" name="mysql-async_2.12" conf="compile, runtime" rev="0.2.21" rev-constraint-default="0.2.21" rev-constraint-dynamic="0.2.21" callerrev="0.2.21"/>
+				<artifacts>
+					<artifact name="db-async-common_2.12" type="jar" ext="jar" status="no" details="" size="205284" time="0" location="/Users/tmasurel/.ivy2/cache/com.github.mauricio/db-async-common_2.12/jars/db-async-common_2.12-0.2.21.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/com/github/mauricio/db-async-common_2.12/0.2.21/db-async-common_2.12-0.2.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.21.0-GA" status="release" pubdate="20161003184507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/Users/tmasurel/.ivy2/cache/org.javassist/javassist/ivy-3.21.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="3.21.0-GA" rev-constraint-default="3.21.0-GA" rev-constraint-dynamic="3.21.0-GA" callerrev="0.2.21"/>
+				<artifacts>
+					<artifact name="javassist" type="bundle" ext="jar" status="no" details="" size="734815" time="0" location="/Users/tmasurel/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.21.0-GA.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.1.6.Final" status="release" pubdate="20161014135555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="20431" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-all/ivy-4.1.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.pom"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="4.1.6.Final" rev-constraint-default="4.1.6.Final" rev-constraint-dynamic="4.1.6.Final" callerrev="0.2.21"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002125804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6434" time="0" location="/Users/tmasurel/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.2.21"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="111521" time="0" location="/Users/tmasurel/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.7" status="release" pubdate="20161219235523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6701" time="0" location="/Users/tmasurel/.ivy2/cache/joda-time/joda-time/ivy-2.9.7.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/joda-time/joda-time/2.9.7/joda-time-2.9.7.pom"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="2.9.7" rev-constraint-default="2.9.7" rev-constraint-dynamic="2.9.7" callerrev="0.2.21"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="633290" time="0" location="/Users/tmasurel/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.7.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-sql-common">
+			<revision name="3.5.1" status="release" pubdate="20180209092036" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25153" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-sql-common/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-sql-common-scala_2.12" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-sql-common" type="jar" ext="jar" status="no" details="" size="125057" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-sql-common/jars/vertx-sql-common-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-web-scala_2.12">
+			<revision name="3.5.1" status="release" pubdate="20180209093510" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="26520" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-web-scala_2.12/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-web-scala_2.12/3.5.1/vertx-web-scala_2.12-3.5.1.pom"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="vertx-web-scala_2.12" type="jar" ext="jar" status="no" details="" size="173472" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-web-scala_2.12/jars/vertx-web-scala_2.12-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-web-scala_2.12/3.5.1/vertx-web-scala_2.12-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-web">
+			<revision name="3.5.1" status="release" pubdate="20180209091925" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="28827" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-web/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-web" type="jar" ext="jar" status="no" details="" size="641006" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-web/jars/vertx-web-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-bridge-common">
+			<revision name="3.5.1" status="release" pubdate="20180209091826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25384" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-bridge-common/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-bridge-common" type="jar" ext="jar" status="no" details="" size="36587" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-bridge-common/jars/vertx-bridge-common-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-auth-common">
+			<revision name="3.5.1" status="release" pubdate="20180209091820" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="27472" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-auth-common/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-auth-common" type="jar" ext="jar" status="no" details="" size="56592" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-auth-common/jars/vertx-auth-common-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-lang-scala_2.12">
+			<revision name="3.5.1" status="release" pubdate="20180209093006" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25205" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-lang-scala_2.12/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-lang-scala_2.12/3.5.1/vertx-lang-scala_2.12-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-web-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="io.vertx" name="vertx-sql-common-scala_2.12" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-lang-scala_2.12" type="jar" ext="jar" status="no" details="" size="525254" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-lang-scala_2.12/jars/vertx-lang-scala_2.12-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-lang-scala_2.12/3.5.1/vertx-lang-scala_2.12-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.9.0" status="release" pubdate="20170730191103" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.0/jackson-module-scala_2.12-2.9.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="bundle" ext="jar" status="no" details="" size="348502" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/bundles/jackson-module-scala_2.12-2.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.0/jackson-module-scala_2.12-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.9.0" status="release" pubdate="20170730064237" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22152" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.0/jackson-module-paranamer-2.9.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="bundle" ext="jar" status="no" details="" size="42865" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.0/jackson-module-paranamer-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826132928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="/Users/tmasurel/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="2.9.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="bundle" ext="jar" status="no" details="" size="34654" time="0" location="/Users/tmasurel/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-lang-scala-on-the-fly_2.12">
+			<revision name="3.5.1" status="release" pubdate="20180209092850" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="23100" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-lang-scala-on-the-fly_2.12/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-lang-scala-on-the-fly_2.12/3.5.1/vertx-lang-scala-on-the-fly_2.12-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-lang-scala-on-the-fly_2.12" type="jar" ext="jar" status="no" details="" size="12123" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-lang-scala-on-the-fly_2.12/jars/vertx-lang-scala-on-the-fly_2.12-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-lang-scala-on-the-fly_2.12/3.5.1/vertx-lang-scala-on-the-fly_2.12-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.4" status="release" pubdate="20171011034031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3078" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-compiler/2.12.4/ivys/ivy.xml"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala-on-the-fly_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="9790479" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.4.jar">
+						<origin-location is-local="false" location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-compiler/2.12.4/jars/scala-compiler.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101102105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3126" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.12/1.0.6/ivys/ivy.xml"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.12/1.0.6/bundles/scala-xml_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.0.6"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="3.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011032224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.4/ivys/ivy.xml"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.5.1"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.9.0"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3587892" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar">
+						<origin-location is-local="false" location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.4/jars/scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.12.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.12.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.12.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.12.4"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.9.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-core">
+			<revision name="3.5.1" status="release" pubdate="20180209091522" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="26512" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-core/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-auth-common" conf="compile, runtime" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="vertx-core" type="jar" ext="jar" status="no" details="" size="1148981" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-core/jars/vertx-core-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-codegen">
+			<revision name="3.5.1" status="release" pubdate="20180209091454" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="22682" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-codegen/ivy-3.5.1.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-codegen/3.5.1/vertx-codegen-3.5.1.pom"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.1" rev-constraint-default="3.5.1" rev-constraint-dynamic="3.5.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="vertx-codegen" type="jar" ext="jar" status="no" details="" size="192207" time="0" location="/Users/tmasurel/.ivy2/cache/io.vertx/vertx-codegen/jars/vertx-codegen-3.5.1.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/vertx/vertx-codegen/3.5.1/vertx-codegen-3.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mvel" name="mvel2">
+			<revision name="2.3.1.Final" status="release" pubdate="20160907102142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mvel.codehaus.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3436" time="0" location="/Users/tmasurel/.ivy2/cache/org.mvel/mvel2/ivy-2.3.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/org/mvel/mvel2/2.3.1.Final/mvel2-2.3.1.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-codegen" conf="default, compile, runtime, master" rev="2.3.1.Final" rev-constraint-default="2.3.1.Final" rev-constraint-dynamic="2.3.1.Final" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="mvel2" type="jar" ext="jar" status="no" details="" size="1054991" time="0" location="/Users/tmasurel/.ivy2/cache/org.mvel/mvel2/jars/mvel2-2.3.1.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/org/mvel/mvel2/2.3.1.Final/mvel2-2.3.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.0" status="release" pubdate="20170730062229" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="19147" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.pom"/>
+				<evicted-by rev="2.9.3"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<caller organisation="io.vertx" name="vertx-codegen" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="3.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.9.3" status="release" pubdate="20171209040525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22645" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-codegen" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="3.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1336943" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.0" status="release" pubdate="20170730060335" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7438" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.pom"/>
+				<evicted-by rev="2.9.3"/>
+				<caller organisation="io.vertx" name="vertx-codegen" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="3.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.9.3" status="release" pubdate="20171209040022" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21933" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.3/jackson-core-2.9.3.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="3.5.1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="2.9.3"/>
+				<caller organisation="io.vertx" name="vertx-codegen" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="3.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="321263" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.3/jackson-core-2.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.0" status="release" pubdate="20170730055340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.3"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="66519" time="0" location="/Users/tmasurel/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver-dns">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142828" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17310" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-resolver-dns/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-resolver-dns/4.1.19.Final/netty-resolver-dns-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="netty-resolver-dns" type="jar" ext="jar" status="no" details="" size="101344" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-resolver-dns/jars/netty-resolver-dns-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-resolver-dns/4.1.19.Final/netty-resolver-dns-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-dns">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16762" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-dns/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-dns/4.1.19.Final/netty-codec-dns-4.1.19.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-dns" type="jar" ext="jar" status="no" details="" size="54840" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-dns/jars/netty-codec-dns-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-dns/4.1.19.Final/netty-codec-dns-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142441" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17128" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-http2/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-http2/4.1.19.Final/netty-codec-http2-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="jar" ext="jar" status="no" details="" size="403636" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-http2/jars/netty-codec-http2-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-http2/4.1.19.Final/netty-codec-http2-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142737" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17307" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-handler-proxy/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-handler-proxy/4.1.19.Final/netty-handler-proxy-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="jar" ext="jar" status="no" details="" size="20957" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-handler-proxy/jars/netty-handler-proxy-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-handler-proxy/4.1.19.Final/netty-handler-proxy-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142359" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16983" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-http/4.1.19.Final/netty-codec-http-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="jar" ext="jar" status="no" details="" size="563491" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-http/4.1.19.Final/netty-codec-http-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16624" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-socks/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-socks/4.1.19.Final/netty-codec-socks-4.1.19.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="jar" ext="jar" status="no" details="" size="119358" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec-socks/jars/netty-codec-socks-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec-socks/4.1.19.Final/netty-codec-socks-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215142310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18103" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-handler/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-handler/4.1.19.Final/netty-handler-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-handler" type="jar" ext="jar" status="no" details="" size="375088" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-handler/4.1.19.Final/netty-handler-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215141954" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18056" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec/4.1.19.Final/netty-codec-4.1.19.Final.pom"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-codec" type="jar" ext="jar" status="no" details="" size="313264" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-codec/4.1.19.Final/netty-codec-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215141906" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16886" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-transport/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-transport/4.1.19.Final/netty-transport-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-codec" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-transport" type="jar" ext="jar" status="no" details="" size="453890" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-transport/4.1.19.Final/netty-transport-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215141733" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16735" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-resolver/4.1.19.Final/netty-resolver-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="jar" ext="jar" status="no" details="" size="32271" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-resolver/4.1.19.Final/netty-resolver-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215141701" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16729" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-buffer/4.1.19.Final/netty-buffer-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="jar" ext="jar" status="no" details="" size="271289" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-buffer/4.1.19.Final/netty-buffer-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.19.Final" status="release" pubdate="20171215141526" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19127" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-common/ivy-4.1.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="3.5.1"/>
+				<caller organisation="io.netty" name="netty-buffer" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<caller organisation="io.netty" name="netty-resolver" conf="compile, runtime" rev="4.1.19.Final" rev-constraint-default="4.1.19.Final" rev-constraint-dynamic="4.1.19.Final" callerrev="4.1.19.Final"/>
+				<artifacts>
+					<artifact name="netty-common" type="jar" ext="jar" status="no" details="" size="567599" time="0" location="/Users/tmasurel/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.19.Final.jar">
+						<origin-location is-local="false" location="https://nexus.norauto.com/repository/maven-group/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011030456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-library/2.12.4/ivys/ivy.xml"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="com.github.mauricio" name="postgresql-async_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<caller organisation="default" name="my-little-tony_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala-on-the-fly_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.5.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.6"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.5.1"/>
+				<caller organisation="io.vertx" name="vertx-mysql-postgresql-client" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.5.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.4"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<caller organisation="com.github.mauricio" name="mysql-async_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.9.0"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="/Users/tmasurel/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="file:////Users/tmasurel/.sbt/preloaded/org.scala-lang/scala-library/2.12.4/jars/scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.12.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.12.4"/>
+				<caller organisation="com.github.mauricio" name="postgresql-async_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<caller organisation="com.github.mauricio" name="db-async-common_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<caller organisation="com.github.mauricio" name="mysql-async_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.2.21"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.12.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.12.4"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.9.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.12.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.12.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.6"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.vertx:vertx-sql-common:3.5.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.vertx/vertx-sql-common/jars/vertx-sql-common-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.vertx/vertx-sql-common/srcs/vertx-sql-common-3.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

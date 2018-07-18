@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.vertx:vertx-mysql-postgresql-client:3.5.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client/jars/vertx-mysql-postgresql-client-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.vertx/vertx-mysql-postgresql-client/srcs/vertx-mysql-postgresql-client-3.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

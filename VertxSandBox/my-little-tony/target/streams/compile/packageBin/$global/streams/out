@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/my-little-tony_2.12-0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/BusVerticle$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/BusVerticle$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/BusVerticle$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/BusVerticle$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/HttpVerticle$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/HttpVerticle$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/BusVerticle$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/BusVerticle$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/HttpVerticle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/HttpVerticle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/HttpVerticle$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/HttpVerticle$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx/scala/myapp/BusVerticle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx/scala/myapp/BusVerticle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vertx-default-jul-logging.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/vertx-default-jul-logging.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/MainApp$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tmasurel/Documents/VertxSandBox/my-little-tony/target/scala-2.12/classes/MainApp$$typecreator2$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
